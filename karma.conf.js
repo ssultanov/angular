@@ -25,8 +25,18 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome'],
+    browsers: ['Chrome', Head],
     singleRun: false,
     restartOnFileChange: true
   });
 };
+
+
+age = person.age
+
+name = person.name
+
+
+{name, age} = person
+
+[...array]
